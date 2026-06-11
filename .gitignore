@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local/remote dependency caches and model artifacts
+.deps/
+models/
+outputs/
+
+# Runtime logs and temporary files
+*.log
+*.tmp
+*_resized_720p.*
+*_inquirer_720p.*
+*_test_720p.*
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+

@@ -1,0 +1,56 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "VRBS smoke: debug wiring only",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/run_pipeline.py",
+      "console": "integratedTerminal",
+      "justMyCode": false,
+      "env": {
+        "PYTHONPATH": "/mnt/si00068187c7/default/myc/code/Eagle/Embodied:${env:PYTHONPATH}",
+        "HF_ENDPOINT": "https://hf-mirror.com",
+        "HF_HUB_DISABLE_XET": "1"
+      },
+      "args": [
+        "--max-queries",
+        "1",
+        "--small-lm-model",
+        "",
+        "--proposal-source",
+        "gt_for_smoke",
+        "--selector-source",
+        "first_proposal",
+        "--output-dir",
+        "/mnt/si00068187c7/default/myc/data/VRBS/output/dengnan_locateanything_debug_smoke"
+      ]
+    },
+    {
+      "name": "VRBS q1: LocateAnything + Qwen VLM",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/run_pipeline.py",
+      "console": "integratedTerminal",
+      "justMyCode": false,
+      "env": {
+        "PYTHONPATH": "/mnt/si00068187c7/default/myc/code/Eagle/Embodied:${env:PYTHONPATH}",
+        "HF_ENDPOINT": "https://hf-mirror.com",
+        "HF_HUB_DISABLE_XET": "1"
+      },
+      "args": [
+        "--query-indexes",
+        "1",
+        "--small-lm-model",
+        "/mnt/si00068187c7/default/myc/models/Qwen3.5-0.8B",
+        "--small-lm-isolated-deps",
+        "/mnt/si00068187c7/default/myc/projects/vrbs_locateanything/.deps/qwen35_transformers",
+        "--hf-endpoint",
+        "https://hf-mirror.com",
+        "--disable-hf-xet",
+        "--output-dir",
+        "/mnt/si00068187c7/default/myc/data/VRBS/output/dengnan_locateanything_debug_q1"
+      ]
+    }
+  ]
+}
