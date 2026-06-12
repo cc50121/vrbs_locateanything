@@ -40,8 +40,8 @@ class VLMTagSelector:
             stop=["<|im_end|>", "<|endoftext|>"],
         )
         self.select_params = SamplingParams(
-            temperature=0.3,
-            top_p=0.8,
+            temperature=0.0,
+            top_p=1.0,
             repetition_penalty=1.15,
             max_tokens=select_max_tokens,
             stop=["<|im_end|>", "<|endoftext|>"],

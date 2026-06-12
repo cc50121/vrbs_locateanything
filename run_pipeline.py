@@ -158,7 +158,8 @@ def main() -> int:
     print(f"Found {len(queries)} queries under {base_dir}")
     print(f"Output dir: {output_dir}")
 
-    # Stage 1: turn each user question into a LocateAnything grounding phrase.
+    # Stage 1: turn each user question into a broad LocateAnything grounding phrase.
+    # The original detailed command is preserved for VLM tag selection below.
     # By default this uses Qwen/Qwen3.5-0.8B downloaded to DEFAULT_SMALL_LM_MODEL.
     # If the model cannot load, CategoryExtractor falls back to deterministic rules.
     category_rows = []

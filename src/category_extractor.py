@@ -30,6 +30,22 @@ EXPLICIT_ATTRIBUTES = [
     "gaming",
 ]
 
+LOCATEANYTHING_STRIPPED_ATTRIBUTES = {
+    "white",
+    "black",
+    "red",
+    "blue",
+    "green",
+    "yellow",
+    "silver",
+    "gray",
+    "grey",
+    "pink",
+    "purple",
+    "brown",
+    "orange",
+}
+
 KNOWN_OBJECTS = [
     ("headphones", ["headphones", "headphone", "earphones", "earphone"]),
     ("game controller", ["game controller", "controller", "gamepad", "game pad"]),
@@ -38,6 +54,7 @@ KNOWN_OBJECTS = [
     ("phone", ["phone", "mobile phone", "cellphone"]),
     ("cup", ["cup", "mug"]),
     ("shoes", ["shoes", "shoe", "sneakers", "sneaker"]),
+    ("boots", ["boots", "boot"]),
 ]
 
 
@@ -255,7 +272,13 @@ def normalize_lm_category(parsed: dict, question: str | None = None) -> tuple[st
         prompt_category = _canonical_category(prompt)
         if prompt_category:
             category = prompt_category
-    prompt = _clean_text(" ".join(dict.fromkeys([p for p in (prompt_attrs or attr_values) + [category] if p])))
+    # LocateAnything works better with broad proposals for colors/brands, but
+    # subtype modifiers such as "gaming" can be needed to detect the right item.
+    retained_attrs = [
+        attr for attr in (prompt_attrs or attr_values)
+        if attr and attr not in LOCATEANYTHING_STRIPPED_ATTRIBUTES
+    ]
+    prompt = _clean_text(" ".join(dict.fromkeys(retained_attrs + [category])))
 
     return category, attr_values, prompt
 

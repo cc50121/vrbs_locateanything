@@ -49,6 +49,8 @@ You have access to the first-phase video memory in the previous assistant messag
    - was interacted with by the matched person,
    - matches the target item_type,
    - matches all specified filters.
+   Person-item association is stronger than visual salience. Do not choose an
+   item associated with another person just because it is larger, darker, or closer.
 
 4. Search Image B for that item among the numbered candidate tags only.
    - The candidate tags are pre-generated 2D proposals.
@@ -59,6 +61,8 @@ You have access to the first-phase video memory in the previous assistant messag
 5. Select the proposal tag corresponding to the matched item.
    - If there is exactly one candidate tag, select it.
    - If there are multiple candidate tags, choose the one that best matches the person's target item and video memory.
+   - When multiple candidates have the same object type, use the matched person's
+     interacted item and final placement from video memory to break the tie.
    - If no candidate tags are provided, output selected_tag null.
 
 ## CURRENT QUERY
@@ -94,8 +98,9 @@ CATEGORY_SYSTEM_PROMPT = (
     "attributes must be a JSON array of short visual attributes explicitly present in the command. "
     "Do not infer or add colors, brands, materials, or other attributes that are not written by the user. "
     "prompt is passed directly to LocateAnything, so it must be a short English noun phrase, "
-    "not a sentence. Examples: "
-    '{"category":"headphones","attributes":["white"],"prompt":"white headphones"}; '
+    "not a sentence. Keep prompt broad by stripping colors and brands, but keep functional subtype "
+    "modifiers such as gaming when explicitly written. Other details stay in attributes and the original user command. Examples: "
+    '{"category":"headphones","attributes":["white"],"prompt":"headphones"}; '
     '{"category":"cup","attributes":[],"prompt":"cup"}; '
     '{"category":"laptop","attributes":["gaming"],"prompt":"gaming laptop"}.'
 )

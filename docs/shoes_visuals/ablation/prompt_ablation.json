@@ -1,0 +1,1558 @@
+[
+  {
+    "query_idx": 1,
+    "question": "Where are my black and white shoes, please frame them out for me.",
+    "phrase": "white black shoes",
+    "proposal_count": 0,
+    "best_iou": 0.0,
+    "best_tag": null,
+    "best_box": null,
+    "gt_boxes": [
+      [
+        574,
+        173,
+        688,
+        275
+      ]
+    ],
+    "proposals": []
+  },
+  {
+    "query_idx": 1,
+    "question": "Where are my black and white shoes, please frame them out for me.",
+    "phrase": "black white shoes",
+    "proposal_count": 0,
+    "best_iou": 0.0,
+    "best_tag": null,
+    "best_box": null,
+    "gt_boxes": [
+      [
+        574,
+        173,
+        688,
+        275
+      ]
+    ],
+    "proposals": []
+  },
+  {
+    "query_idx": 1,
+    "question": "Where are my black and white shoes, please frame them out for me.",
+    "phrase": "black and white shoes",
+    "proposal_count": 0,
+    "best_iou": 0.0,
+    "best_tag": null,
+    "best_box": null,
+    "gt_boxes": [
+      [
+        574,
+        173,
+        688,
+        275
+      ]
+    ],
+    "proposals": []
+  },
+  {
+    "query_idx": 1,
+    "question": "Where are my black and white shoes, please frame them out for me.",
+    "phrase": "black shoes",
+    "proposal_count": 9,
+    "best_iou": 0.06069457964252218,
+    "best_tag": 6,
+    "best_box": [
+      633,
+      258,
+      695,
+      334
+    ],
+    "gt_boxes": [
+      [
+        574,
+        173,
+        688,
+        275
+      ]
+    ],
+    "proposals": [
+      {
+        "tag": 1,
+        "bbox": [
+          481,
+          204,
+          559,
+          470
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 2,
+        "bbox": [
+          519,
+          203,
+          594,
+          464
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 3,
+        "bbox": [
+          539,
+          310,
+          613,
+          374
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 4,
+        "bbox": [
+          577,
+          272,
+          646,
+          333
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 5,
+        "bbox": [
+          618,
+          353,
+          659,
+          420
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 6,
+        "bbox": [
+          633,
+          258,
+          695,
+          334
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 7,
+        "bbox": [
+          660,
+          346,
+          697,
+          412
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 8,
+        "bbox": [
+          667,
+          214,
+          734,
+          236
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 9,
+        "bbox": [
+          717,
+          102,
+          769,
+          211
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      }
+    ]
+  },
+  {
+    "query_idx": 1,
+    "question": "Where are my black and white shoes, please frame them out for me.",
+    "phrase": "shoes",
+    "proposal_count": 12,
+    "best_iou": 0.45278637731958515,
+    "best_tag": 7,
+    "best_box": [
+      579,
+      191,
+      644,
+      272
+    ],
+    "gt_boxes": [
+      [
+        574,
+        173,
+        688,
+        275
+      ]
+    ],
+    "proposals": [
+      {
+        "tag": 1,
+        "bbox": [
+          481,
+          204,
+          558,
+          308
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 2,
+        "bbox": [
+          487,
+          50,
+          594,
+          144
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 3,
+        "bbox": [
+          505,
+          360,
+          559,
+          470
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 4,
+        "bbox": [
+          538,
+          203,
+          613,
+          333
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 5,
+        "bbox": [
+          539,
+          362,
+          612,
+          464
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 6,
+        "bbox": [
+          569,
+          56,
+          633,
+          137
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 7,
+        "bbox": [
+          579,
+          191,
+          644,
+          272
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 8,
+        "bbox": [
+          611,
+          273,
+          646,
+          370
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 9,
+        "bbox": [
+          617,
+          355,
+          660,
+          420
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 10,
+        "bbox": [
+          621,
+          28,
+          708,
+          112
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 11,
+        "bbox": [
+          632,
+          188,
+          681,
+          256
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 12,
+        "bbox": [
+          643,
+          258,
+          695,
+          334
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      }
+    ]
+  },
+  {
+    "query_idx": 2,
+    "question": "Where are my black boots, please frame them out for me.",
+    "phrase": "black black boots",
+    "proposal_count": 2,
+    "best_iou": 0.0,
+    "best_tag": null,
+    "best_box": null,
+    "gt_boxes": [
+      [
+        612,
+        24,
+        751,
+        119
+      ]
+    ],
+    "proposals": [
+      {
+        "tag": 1,
+        "bbox": [
+          506,
+          361,
+          559,
+          470
+        ],
+        "source": "locateanything",
+        "phrase": "black black boots"
+      },
+      {
+        "tag": 2,
+        "bbox": [
+          551,
+          362,
+          592,
+          464
+        ],
+        "source": "locateanything",
+        "phrase": "black black boots"
+      }
+    ]
+  },
+  {
+    "query_idx": 2,
+    "question": "Where are my black boots, please frame them out for me.",
+    "phrase": "black boots",
+    "proposal_count": 4,
+    "best_iou": 0.0,
+    "best_tag": null,
+    "best_box": null,
+    "gt_boxes": [
+      [
+        612,
+        24,
+        751,
+        119
+      ]
+    ],
+    "proposals": [
+      {
+        "tag": 1,
+        "bbox": [
+          506,
+          361,
+          559,
+          470
+        ],
+        "source": "locateanything",
+        "phrase": "black boots"
+      },
+      {
+        "tag": 2,
+        "bbox": [
+          551,
+          374,
+          592,
+          463
+        ],
+        "source": "locateanything",
+        "phrase": "black boots"
+      },
+      {
+        "tag": 3,
+        "bbox": [
+          618,
+          356,
+          659,
+          420
+        ],
+        "source": "locateanything",
+        "phrase": "black boots"
+      },
+      {
+        "tag": 4,
+        "bbox": [
+          660,
+          346,
+          695,
+          412
+        ],
+        "source": "locateanything",
+        "phrase": "black boots"
+      }
+    ]
+  },
+  {
+    "query_idx": 2,
+    "question": "Where are my black boots, please frame them out for me.",
+    "phrase": "boots",
+    "proposal_count": 4,
+    "best_iou": 0.03201585545907846,
+    "best_tag": 4,
+    "best_box": [
+      631,
+      112,
+      767,
+      214
+    ],
+    "gt_boxes": [
+      [
+        612,
+        24,
+        751,
+        119
+      ]
+    ],
+    "proposals": [
+      {
+        "tag": 1,
+        "bbox": [
+          506,
+          361,
+          593,
+          470
+        ],
+        "source": "locateanything",
+        "phrase": "boots"
+      },
+      {
+        "tag": 2,
+        "bbox": [
+          538,
+          310,
+          611,
+          376
+        ],
+        "source": "locateanything",
+        "phrase": "boots"
+      },
+      {
+        "tag": 3,
+        "bbox": [
+          617,
+          351,
+          696,
+          420
+        ],
+        "source": "locateanything",
+        "phrase": "boots"
+      },
+      {
+        "tag": 4,
+        "bbox": [
+          631,
+          112,
+          767,
+          214
+        ],
+        "source": "locateanything",
+        "phrase": "boots"
+      }
+    ]
+  },
+  {
+    "query_idx": 2,
+    "question": "Where are my black boots, please frame them out for me.",
+    "phrase": "black shoes",
+    "proposal_count": 9,
+    "best_iou": 0.0290476976238941,
+    "best_tag": 9,
+    "best_box": [
+      718,
+      103,
+      768,
+      213
+    ],
+    "gt_boxes": [
+      [
+        612,
+        24,
+        751,
+        119
+      ]
+    ],
+    "proposals": [
+      {
+        "tag": 1,
+        "bbox": [
+          481,
+          204,
+          559,
+          470
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 2,
+        "bbox": [
+          519,
+          203,
+          594,
+          464
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 3,
+        "bbox": [
+          539,
+          310,
+          613,
+          374
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 4,
+        "bbox": [
+          577,
+          272,
+          646,
+          333
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 5,
+        "bbox": [
+          618,
+          353,
+          659,
+          420
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 6,
+        "bbox": [
+          633,
+          258,
+          695,
+          332
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 7,
+        "bbox": [
+          660,
+          345,
+          697,
+          412
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 8,
+        "bbox": [
+          667,
+          214,
+          734,
+          236
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 9,
+        "bbox": [
+          718,
+          103,
+          768,
+          213
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      }
+    ]
+  },
+  {
+    "query_idx": 2,
+    "question": "Where are my black boots, please frame them out for me.",
+    "phrase": "shoes",
+    "proposal_count": 12,
+    "best_iou": 0.5468383184045147,
+    "best_tag": 10,
+    "best_box": [
+      621,
+      28,
+      708,
+      111
+    ],
+    "gt_boxes": [
+      [
+        612,
+        24,
+        751,
+        119
+      ]
+    ],
+    "proposals": [
+      {
+        "tag": 1,
+        "bbox": [
+          481,
+          204,
+          558,
+          301
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 2,
+        "bbox": [
+          487,
+          50,
+          594,
+          143
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 3,
+        "bbox": [
+          505,
+          360,
+          559,
+          470
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 4,
+        "bbox": [
+          538,
+          203,
+          613,
+          333
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 5,
+        "bbox": [
+          539,
+          362,
+          612,
+          464
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 6,
+        "bbox": [
+          569,
+          56,
+          633,
+          136
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 7,
+        "bbox": [
+          579,
+          191,
+          644,
+          272
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 8,
+        "bbox": [
+          616,
+          273,
+          646,
+          322
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 9,
+        "bbox": [
+          617,
+          357,
+          659,
+          420
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 10,
+        "bbox": [
+          621,
+          28,
+          708,
+          111
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 11,
+        "bbox": [
+          632,
+          188,
+          681,
+          256
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 12,
+        "bbox": [
+          643,
+          258,
+          695,
+          332
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      }
+    ]
+  },
+  {
+    "query_idx": 3,
+    "question": "Where are my black and white shoes, please frame them out for me.",
+    "phrase": "white black shoes",
+    "proposal_count": 0,
+    "best_iou": 0.0,
+    "best_tag": null,
+    "best_box": null,
+    "gt_boxes": [
+      [
+        664,
+        107,
+        774,
+        224
+      ]
+    ],
+    "proposals": []
+  },
+  {
+    "query_idx": 3,
+    "question": "Where are my black and white shoes, please frame them out for me.",
+    "phrase": "black white shoes",
+    "proposal_count": 0,
+    "best_iou": 0.0,
+    "best_tag": null,
+    "best_box": null,
+    "gt_boxes": [
+      [
+        664,
+        107,
+        774,
+        224
+      ]
+    ],
+    "proposals": []
+  },
+  {
+    "query_idx": 3,
+    "question": "Where are my black and white shoes, please frame them out for me.",
+    "phrase": "black and white shoes",
+    "proposal_count": 0,
+    "best_iou": 0.0,
+    "best_tag": null,
+    "best_box": null,
+    "gt_boxes": [
+      [
+        664,
+        107,
+        774,
+        224
+      ]
+    ],
+    "proposals": []
+  },
+  {
+    "query_idx": 3,
+    "question": "Where are my black and white shoes, please frame them out for me.",
+    "phrase": "black shoes",
+    "proposal_count": 9,
+    "best_iou": 0.39938556036913553,
+    "best_tag": 9,
+    "best_box": [
+      718,
+      104,
+      768,
+      211
+    ],
+    "gt_boxes": [
+      [
+        664,
+        107,
+        774,
+        224
+      ]
+    ],
+    "proposals": [
+      {
+        "tag": 1,
+        "bbox": [
+          481,
+          204,
+          559,
+          470
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 2,
+        "bbox": [
+          519,
+          203,
+          594,
+          464
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 3,
+        "bbox": [
+          539,
+          310,
+          613,
+          374
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 4,
+        "bbox": [
+          577,
+          272,
+          646,
+          333
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 5,
+        "bbox": [
+          618,
+          353,
+          659,
+          420
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 6,
+        "bbox": [
+          633,
+          258,
+          695,
+          334
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 7,
+        "bbox": [
+          660,
+          346,
+          697,
+          412
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 8,
+        "bbox": [
+          667,
+          214,
+          734,
+          236
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 9,
+        "bbox": [
+          718,
+          104,
+          768,
+          211
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      }
+    ]
+  },
+  {
+    "query_idx": 3,
+    "question": "Where are my black and white shoes, please frame them out for me.",
+    "phrase": "shoes",
+    "proposal_count": 12,
+    "best_iou": 0.03925593326539068,
+    "best_tag": 11,
+    "best_box": [
+      632,
+      188,
+      681,
+      256
+    ],
+    "gt_boxes": [
+      [
+        664,
+        107,
+        774,
+        224
+      ]
+    ],
+    "proposals": [
+      {
+        "tag": 1,
+        "bbox": [
+          481,
+          204,
+          558,
+          306
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 2,
+        "bbox": [
+          487,
+          50,
+          594,
+          144
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 3,
+        "bbox": [
+          505,
+          360,
+          559,
+          470
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 4,
+        "bbox": [
+          538,
+          203,
+          613,
+          333
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 5,
+        "bbox": [
+          539,
+          362,
+          612,
+          464
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 6,
+        "bbox": [
+          569,
+          56,
+          633,
+          137
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 7,
+        "bbox": [
+          579,
+          192,
+          644,
+          272
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 8,
+        "bbox": [
+          609,
+          273,
+          646,
+          370
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 9,
+        "bbox": [
+          617,
+          358,
+          660,
+          420
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 10,
+        "bbox": [
+          621,
+          28,
+          708,
+          112
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 11,
+        "bbox": [
+          632,
+          188,
+          681,
+          256
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 12,
+        "bbox": [
+          643,
+          258,
+          695,
+          334
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      }
+    ]
+  },
+  {
+    "query_idx": 4,
+    "question": "Where are my black boots, please frame them out for me.",
+    "phrase": "black black boots",
+    "proposal_count": 2,
+    "best_iou": 0.37876999712905196,
+    "best_tag": 1,
+    "best_box": [
+      506,
+      361,
+      559,
+      470
+    ],
+    "gt_boxes": [
+      [
+        475,
+        354,
+        598,
+        478
+      ]
+    ],
+    "proposals": [
+      {
+        "tag": 1,
+        "bbox": [
+          506,
+          361,
+          559,
+          470
+        ],
+        "source": "locateanything",
+        "phrase": "black black boots"
+      },
+      {
+        "tag": 2,
+        "bbox": [
+          551,
+          362,
+          592,
+          464
+        ],
+        "source": "locateanything",
+        "phrase": "black black boots"
+      }
+    ]
+  },
+  {
+    "query_idx": 4,
+    "question": "Where are my black boots, please frame them out for me.",
+    "phrase": "black boots",
+    "proposal_count": 2,
+    "best_iou": 0.37876999712905196,
+    "best_tag": 1,
+    "best_box": [
+      506,
+      361,
+      559,
+      470
+    ],
+    "gt_boxes": [
+      [
+        475,
+        354,
+        598,
+        478
+      ]
+    ],
+    "proposals": [
+      {
+        "tag": 1,
+        "bbox": [
+          506,
+          361,
+          559,
+          470
+        ],
+        "source": "locateanything",
+        "phrase": "black boots"
+      },
+      {
+        "tag": 2,
+        "bbox": [
+          551,
+          374,
+          592,
+          463
+        ],
+        "source": "locateanything",
+        "phrase": "black boots"
+      }
+    ]
+  },
+  {
+    "query_idx": 4,
+    "question": "Where are my black boots, please frame them out for me.",
+    "phrase": "boots",
+    "proposal_count": 4,
+    "best_iou": 0.6217545235891985,
+    "best_tag": 1,
+    "best_box": [
+      506,
+      361,
+      593,
+      470
+    ],
+    "gt_boxes": [
+      [
+        475,
+        354,
+        598,
+        478
+      ]
+    ],
+    "proposals": [
+      {
+        "tag": 1,
+        "bbox": [
+          506,
+          361,
+          593,
+          470
+        ],
+        "source": "locateanything",
+        "phrase": "boots"
+      },
+      {
+        "tag": 2,
+        "bbox": [
+          539,
+          309,
+          613,
+          376
+        ],
+        "source": "locateanything",
+        "phrase": "boots"
+      },
+      {
+        "tag": 3,
+        "bbox": [
+          619,
+          351,
+          696,
+          420
+        ],
+        "source": "locateanything",
+        "phrase": "boots"
+      },
+      {
+        "tag": 4,
+        "bbox": [
+          632,
+          112,
+          768,
+          214
+        ],
+        "source": "locateanything",
+        "phrase": "boots"
+      }
+    ]
+  },
+  {
+    "query_idx": 4,
+    "question": "Where are my black boots, please frame them out for me.",
+    "phrase": "black shoes",
+    "proposal_count": 9,
+    "best_iou": 0.3357079250757985,
+    "best_tag": 1,
+    "best_box": [
+      481,
+      204,
+      559,
+      470
+    ],
+    "gt_boxes": [
+      [
+        475,
+        354,
+        598,
+        478
+      ]
+    ],
+    "proposals": [
+      {
+        "tag": 1,
+        "bbox": [
+          481,
+          204,
+          559,
+          470
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 2,
+        "bbox": [
+          519,
+          203,
+          594,
+          464
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 3,
+        "bbox": [
+          539,
+          310,
+          613,
+          374
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 4,
+        "bbox": [
+          577,
+          272,
+          646,
+          333
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 5,
+        "bbox": [
+          618,
+          353,
+          659,
+          420
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 6,
+        "bbox": [
+          633,
+          258,
+          695,
+          334
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 7,
+        "bbox": [
+          660,
+          346,
+          697,
+          412
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 8,
+        "bbox": [
+          667,
+          214,
+          734,
+          236
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      },
+      {
+        "tag": 9,
+        "bbox": [
+          719,
+          104,
+          767,
+          212
+        ],
+        "source": "locateanything",
+        "phrase": "black shoes"
+      }
+    ]
+  },
+  {
+    "query_idx": 4,
+    "question": "Where are my black boots, please frame them out for me.",
+    "phrase": "shoes",
+    "proposal_count": 12,
+    "best_iou": 0.396669289013461,
+    "best_tag": 3,
+    "best_box": [
+      505,
+      360,
+      560,
+      470
+    ],
+    "gt_boxes": [
+      [
+        475,
+        354,
+        598,
+        478
+      ]
+    ],
+    "proposals": [
+      {
+        "tag": 1,
+        "bbox": [
+          481,
+          204,
+          559,
+          309
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 2,
+        "bbox": [
+          487,
+          50,
+          594,
+          144
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 3,
+        "bbox": [
+          505,
+          360,
+          560,
+          470
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 4,
+        "bbox": [
+          538,
+          203,
+          613,
+          375
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 5,
+        "bbox": [
+          548,
+          373,
+          592,
+          464
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 6,
+        "bbox": [
+          567,
+          56,
+          633,
+          137
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 7,
+        "bbox": [
+          578,
+          192,
+          645,
+          272
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 8,
+        "bbox": [
+          611,
+          273,
+          646,
+          370
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 9,
+        "bbox": [
+          617,
+          359,
+          660,
+          421
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 10,
+        "bbox": [
+          621,
+          28,
+          708,
+          112
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 11,
+        "bbox": [
+          632,
+          188,
+          681,
+          256
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      },
+      {
+        "tag": 12,
+        "bbox": [
+          643,
+          258,
+          695,
+          333
+        ],
+        "source": "locateanything",
+        "phrase": "shoes"
+      }
+    ]
+  }
+]
